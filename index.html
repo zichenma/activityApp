@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Activity App</title>
+</head>
+<body>
+        <a class="github-fork-ribbon" href="https://url.to-your.repo" data-ribbon="Download Source Code" title="Download Source Code">Download Source Code</a>
+    <h2>Activity List</h2>
+    <button class="btn btn-danger" id="reload" onclick="location.reload()">Reload</button>
+    <div class="btn-group">
+        <button class="btn btn-primary" id="allActicity">Display All</button>
+        <button class="btn btn-success" id="byParent">Display By Parent</button>   
+    </div>
+    <div class="input-group">
+        <input placeholder="Please add a parent." id="parentIpt">
+        <button class="btn btn-info" id="addParent">Add Parent</button>
+        <input placeholder="Please add a activity." id="activityIpt">
+        <button class="btn btn-warning" id="addActivity" disabled>Add Activity</button>
+    </div>
+    <p id="info">Please add a parent before adding activities!</p>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+            <th>Name</th>
+            <th>Activities</th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser-polyfill.min.js"></script>
+    <script src="javascript/CodeChallenge.js"></script>
+    <script src="javascript/main.js"></script>
+</body>
+</html>

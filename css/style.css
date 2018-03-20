@@ -1,0 +1,57 @@
+/* app css stylesheet */
+
+body {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-bottom: 3px solid #428bca;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.10),
+                0px 10px 20px rgba(0,0,0,0.05),
+                0px 20px 20px rgba(0,0,0,0.05),
+                0px 30px 20px rgba(0,0,0,0.05);
+}
+h2 {
+  padding-top: 2%;
+}
+#info {
+  color:#d43f3a;
+  font-weight: bold;
+}
+.btn-group {
+  margin: 0 auto;
+  display: inline-block;
+}
+.btn {
+  margin: 20px;
+  border-radius: 0;
+}
+.input-group{
+  margin: 0 auto;
+  display: inline-block;
+}
+.panel {
+  margin: 2% auto;
+  width: 90%;
+  border-radius: 0;
+}
+.table{
+  margin: 2% auto;
+  width: 90%;
+  border-radius: 0;
+}
+th {
+  text-align: center;
+}
+
+.disappear{
+  display: none;
+}
+
+
+
+
+
+
+
